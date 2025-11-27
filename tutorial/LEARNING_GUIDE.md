@@ -157,10 +157,10 @@ eman2/
 
 Choose your path:
 
-- **Want to understand the architecture?** → Read `ARCHITECTURE.md`
-- **Want to understand core concepts?** → Read `CORE_CONCEPTS.md`
-- **Want to build and extend?** → Read `DEVELOPER_GUIDE.md`
-- **Need API reference?** → Read `API_REFERENCE.md`
+- **Want to understand the architecture?** → Read [ARCHITECTURE.md](ARCHITECTURE.md)
+- **Want to understand core concepts?** → Read [CORE_CONCEPTS.md](CORE_CONCEPTS.md)
+- **Want to build and extend?** → Read [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md)
+- **Need API reference?** → Read [API_REFERENCE.md](API_REFERENCE.md)
 
 ---
 
