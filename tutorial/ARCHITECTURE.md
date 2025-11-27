@@ -93,11 +93,11 @@ EMAN2 follows a classic layered architecture with clear separation of concerns:
 **Modular Design**:
 ```cpp
 class EMData {
-    #include "emdata_io.h"         // File I/O operations
-    #include "emdata_metadata.h"   // Attribute get/set
-    #include "emdata_modular.h"    // Process, align, etc.
-    #include "emdata_transform.h"  // FFT, transforms
-    #include "emdata_core.h"       // Basic operations
+    #include "emdata_io.h"            // File I/O operations
+    #include "emdata_metadata.h"      // Attribute get/set
+    #include "emdata_modular.h"       // Process, align, etc.
+    #include "emdata_transform.h"     // FFT, transforms
+    #include "emdata_core.h"          // Basic operations
     #include "sparx/emdata_sparx.h"   // SPARX extensions
     #include "sphire/emdata_sphire.h" // SPHIRE extensions
 };
@@ -199,41 +199,41 @@ from EMAN2_cppwrap import *
 
 ```
 1. Load Image
-   ┌─────────────────────────────────────┐
-   │ EMData img = EMData("file.mrc")     │
+   ┌──────────────────────────────────────┐
+   │ EMData img = EMData("file.mrc")      │
    │   ↓                                  │
-   │ EMUtil::get_imageio("file.mrc")     │
+   │ EMUtil::get_imageio("file.mrc")      │
    │   ↓                                  │
-   │ MrcIO::read_data()                  │
-   └─────────────────────────────────────┘
+   │ MrcIO::read_data()                   │
+   └──────────────────────────────────────┘
                 ↓
 2. Process Image
-   ┌─────────────────────────────────────┐
+   ┌──────────────────────────────────────┐
    │ img.process_inplace("filter.lowpass",│
    │                     {"cutoff": 0.5}) │
    │   ↓                                  │
-   │ Factory<Processor>::get("filter...")│
+   │ Factory<Processor>::get("filter...") │
    │   ↓                                  │
-   │ LowPassProcessor::process_inplace() │
-   └─────────────────────────────────────┘
+   │ LowPassProcessor::process_inplace()  │
+   └──────────────────────────────────────┘
                 ↓
 3. Transform
-   ┌─────────────────────────────────────┐
-   │ img.do_fft_inplace()                │
+   ┌──────────────────────────────────────┐
+   │ img.do_fft_inplace()                 │
    │   ↓                                  │
-   │ EMFFT::real_to_complex_1d()         │
+   │ EMFFT::real_to_complex_1d()          │
    │   ↓                                  │
-   │ FFTW3 library                       │
-   └─────────────────────────────────────┘
+   │ FFTW3 library                        │
+   └──────────────────────────────────────┘
                 ↓
 4. Save Result
-   ┌─────────────────────────────────────┐
-   │ img.write_image("output.hdf")       │
+   ┌──────────────────────────────────────┐
+   │ img.write_image("output.hdf")        │
    │   ↓                                  │
-   │ EMUtil::get_imageio("output.hdf")   │
+   │ EMUtil::get_imageio("output.hdf")    │
    │   ↓                                  │
-   │ HdfIO2::write_data()                │
-   └─────────────────────────────────────┘
+   │ HdfIO2::write_data()                 │
+   └──────────────────────────────────────┘
 ```
 
 ## Design Patterns
