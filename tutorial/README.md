@@ -14,7 +14,7 @@ By completing this tutorial, you will:
 
 ## 📚 Tutorial Structure
 
-This tutorial consists of 7 comprehensive documents:
+This tutorial consists of 8 comprehensive documents:
 
 ### 1. 🚀 [LEARNING_GUIDE.md](LEARNING_GUIDE.md) - **START HERE**
 **Time**: 30 minutes  
@@ -115,7 +115,7 @@ This tutorial consists of 7 comprehensive documents:
 ---
 
 ### 7. 📝 [DOCS_README.md](DOCS_README.md)
-**Time**: 10 minutes  
+**Time**: 10 minutes
 **Quick start** summary.
 
 **What's inside**:
@@ -126,6 +126,24 @@ This tutorial consists of 7 comprehensive documents:
 - Success checklist
 
 **Use this** for a quick overview or refresher.
+
+---
+
+### 8. 🌊 [FOURIER_TRANSFORMS.md](FOURIER_TRANSFORMS.md)
+**Time**: 2-3 hours
+**Deep dive** into Fourier transforms.
+
+**What's inside**:
+- Mathematical foundations and intuition
+- Why FFT is essential for cryo-EM
+- EMAN2 FFT operations and API
+- Practical examples (filtering, CTF correction, FRC)
+- Advanced topics (gridding, SSNR, FSC)
+- Best practices and common pitfalls
+- Real-world workflows
+- Quick reference cheat sheet
+
+**Read this** to master Fourier space operations in EMAN2.
 
 ---
 

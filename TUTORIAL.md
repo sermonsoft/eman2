@@ -16,15 +16,16 @@ A comprehensive tutorial for understanding and working with the EMAN2 codebase i
 
 ## 📖 What's in the Tutorial?
 
-The tutorial includes 7 comprehensive documents covering:
+The tutorial includes 8 comprehensive documents covering:
 
 1. **[LEARNING_GUIDE.md](tutorial/LEARNING_GUIDE.md)** - Overview and navigation (START HERE)
 2. **[ARCHITECTURE.md](tutorial/ARCHITECTURE.md)** - System architecture and design
 3. **[CORE_CONCEPTS.md](tutorial/CORE_CONCEPTS.md)** - Key abstractions (EMData, Factory pattern)
 4. **[DEVELOPER_GUIDE.md](tutorial/DEVELOPER_GUIDE.md)** - Building, testing, extending
 5. **[API_REFERENCE.md](tutorial/API_REFERENCE.md)** - Quick API reference
-6. **[DOCUMENTATION_INDEX.md](tutorial/DOCUMENTATION_INDEX.md)** - Complete index
-7. **[DOCS_README.md](tutorial/DOCS_README.md)** - Quick start summary
+6. **[FOURIER_TRANSFORMS.md](tutorial/FOURIER_TRANSFORMS.md)** - Complete FFT guide
+7. **[DOCUMENTATION_INDEX.md](tutorial/DOCUMENTATION_INDEX.md)** - Complete index
+8. **[DOCS_README.md](tutorial/DOCS_README.md)** - Quick start summary
 
 ---
 
