@@ -350,7 +350,7 @@ ctest -R processor  # Run only processor tests
 ### Test Structure
 
 ```
-rt/                     # Regression tests
+rt/                    # Regression tests
 ├── pyem/              # Python API tests
 ├── imageio/           # Image I/O tests
 └── demo/              # Demo tests
